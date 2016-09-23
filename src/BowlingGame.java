@@ -27,7 +27,7 @@ public class BowlingGame {
 	public int score(){
 		int finalscore = 0;
 		
-		for (int i=0; i > frames.size(); i++){
+		for (int i=0; i >= frames.size(); i++){
 			
 			int first = frames.get(i).getFirstThrow();
 			int second = frames.get(i).getSecondThrow();
