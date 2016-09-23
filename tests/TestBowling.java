@@ -10,6 +10,8 @@ public class TestBowling {
 		Frame frame = new Frame(2, 4);
 		
 		game.addFrame(frame);
+		Frame frame2 = new Frame(2, 4);
+		game.addFrame(frame2);
 		
 		assertTrue("score of first frame is not 6", game.score() == 6);
 	}
