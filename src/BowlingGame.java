@@ -14,16 +14,7 @@ public class BowlingGame {
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		
-		
-		int firstThrow = 2;
-		int secondThrow = 4;
-		
-		Frame firstFrame = new Frame(firstThrow, secondThrow);
-		
-		addFrame(firstFrame);
-		
 		frames.add(frame);
-		
 		
 	}
 	
@@ -44,6 +35,6 @@ public class BowlingGame {
 		
 		System.out.println(scoreofFrame);
 		
-		return 0;
+		return scoreofFrame;
 	}
 }

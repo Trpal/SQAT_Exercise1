@@ -7,3 +7,4 @@ FileOpenedAction 1474631779717 SudokuVerifier.java 582 2 3 0
 RefactoringAction 1474631891575 TestBowling.java ADD void testBowlingGame_singleframeof2n4() METHOD
 FileOpenedAction 1474631908830 SudokuVerifierTest.java 2224 5 17 4
 EditAction 1474632670733 BowlingGame.java 940 4 11 0
+EditAction 1474632820207 BowlingGame.java 801 4 7 0
