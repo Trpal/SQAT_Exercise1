@@ -13,7 +13,18 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		//to be implemented
+		
+		
+		int firstThrow = 2;
+		int secondThrow = 4;
+		
+		Frame firstFrame = new Frame(firstThrow, secondThrow);
+		
+		addFrame(firstFrame);
+		
+		frames.add(frame);
+		
+		
 	}
 	
 	// Sets the bonus throws at the end of the game
@@ -23,7 +34,16 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
+		
+		int scoreofFrame = 0;
+		
+		int first = frames.get(0).getFirstThrow();
+		int second = frames.get(0).getSecondThrow();
+		
+		scoreofFrame = first + second;
+		
+		System.out.println(scoreofFrame);
+		
 		return 0;
 	}
 }
