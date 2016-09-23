@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Finish time: 16:37
-//ID: 2255222
+//ID: 151
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
