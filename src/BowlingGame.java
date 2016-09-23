@@ -25,16 +25,18 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
+		int finalscore = 0;
 		
-		int scoreofFrame = 0;
+		for (int i=0; i > frames.size(); i++){
+			
+			int first = frames.get(i).getFirstThrow();
+			int second = frames.get(i).getSecondThrow();
+			
+			finalscore = finalscore + first + second; 
+		}
 		
-		int first = frames.get(0).getFirstThrow();
-		int second = frames.get(0).getSecondThrow();
+		System.out.println(finalscore);
 		
-		scoreofFrame = first + second;
-		
-		System.out.println(scoreofFrame);
-		
-		return scoreofFrame;
+		return finalscore;
 	}
 }

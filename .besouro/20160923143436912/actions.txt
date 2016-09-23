@@ -9,3 +9,6 @@ FileOpenedAction 1474631908830 SudokuVerifierTest.java 2224 5 17 4
 EditAction 1474632670733 BowlingGame.java 940 4 11 0
 EditAction 1474632820207 BowlingGame.java 801 4 7 0
 EditAction 1474632820282 TestBowling.java 407 2 5 1
+UnitTestCaseAction 1474632821332 TestBowling.java FAIL
+UnitTestSessionAction 1474632821332 TestBowling.java FAIL
+EditAction 1474633233629 BowlingGame.java 859 4 5 0
